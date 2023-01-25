@@ -1,0 +1,10 @@
+C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\bin\Debug\HcsShift.exe.config
+C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\bin\Debug\HcsShift.exe
+C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\bin\Debug\HcsShift.pdb
+C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\obj\Debug\HcsShift.csproj.AssemblyReference.cache
+C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\obj\Debug\HcsShift.Top.resources
+C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\obj\Debug\HcsShift.Properties.Resources.resources
+C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\obj\Debug\HcsShift.csproj.GenerateResource.cache
+C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\obj\Debug\HcsShift.csproj.CoreCompileInputs.cache
+C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\obj\Debug\HcsShift.exe
+C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\obj\Debug\HcsShift.pdb

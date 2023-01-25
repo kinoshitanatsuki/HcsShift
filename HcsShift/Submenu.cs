@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HcsShift
 {
-    public partial class Form1 : Form
+    public partial class Submenu : Form
     {
-        public Form1()
+        public Submenu()
         {
             InitializeComponent();
         }
