@@ -6,20 +6,21 @@ using System.Data.SQLite;
 namespace HcsShift
 {
     /// <summary>
-    /// 変更
+    /// 削除
     /// </summary>
-    public partial class Update : Form
+    public partial class Delete : Form
     {
-        public Update()
+        public Delete()
         {
             InitializeComponent();
         }
         /// <summary>
-        /// 変更する処理ボタン
+        /// 削除する処理ボタン
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void UpdateButtonClick(object sender, EventArgs e)
+
+        private void DeletionButtonClick(object sender, EventArgs e)
         {
             using (SQLiteConnection con = new SQLiteConnection("Data Source=test.db"))
             {
@@ -28,18 +29,10 @@ namespace HcsShift
                 {
                     SQLiteCommand cmd = con.CreateCommand();
                     // インサート
-                    cmd.CommandText = "UPDATE t_product SET name = @Name, companyname = @Company, phone = @Phone, hourlyrate = @Hourly WHERE ID = @Id;";
+                    cmd.CommandText = "DELETE FROM t_product WHERE ID = @Id;";
                     // パラメータセット
-                    cmd.Parameters.Add("Name", DbType.String);
-                    cmd.Parameters.Add("Company", DbType.String);
-                    cmd.Parameters.Add("Phone", DbType.Int64);
-                    cmd.Parameters.Add("Hourly", DbType.Int64);
                     cmd.Parameters.Add("Id", DbType.Int64);
-                    // データ修正
-                    cmd.Parameters["Name"].Value = Identity.Text;
-                    cmd.Parameters["Company"].Value = CompanyName.Text;
-                    cmd.Parameters["Phone"].Value = int.Parse(TelephoneNumber.Text);
-                    cmd.Parameters["Hourly"].Value = int.Parse(HourlyWage.Text);
+                    // データ削除
                     cmd.Parameters["Id"].Value = int.Parse(ID.Text);
                     cmd.ExecuteNonQuery();
                     // コミット
@@ -49,7 +42,7 @@ namespace HcsShift
                     //SQLの実行
                     SQLiteDataAdapter adapter = new SQLiteDataAdapter("SELECT * FROM t_product", con);
                     adapter.Fill(dataTable);
-                    HcsShiftUpdateView.DataSource = dataTable;
+                    HcsShiftDeleteView.DataSource = dataTable;
                 }
             }
         }
@@ -64,6 +57,23 @@ namespace HcsShift
             Submenu SubmenuFrom = new Submenu();
             SubmenuFrom.Visible = true;
             Visible = false;
+        }
+        /// <summary>
+        /// 登録されてるいるものを表示する
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void HcsShiftDeleteViewCellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            using (SQLiteConnection con = new SQLiteConnection("Data Source=test.db"))
+            {
+                //DataTableを作成します。
+                DataTable dataTable = new DataTable();
+                //SQLの実行
+                SQLiteDataAdapter adapter = new SQLiteDataAdapter("SELECT * FROM t_product", con);
+                adapter.Fill(dataTable);
+                HcsShiftDeleteView.DataSource = dataTable;
+            }
         }
     }
 }

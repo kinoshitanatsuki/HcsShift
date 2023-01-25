@@ -19,3 +19,6 @@ C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\bin\Debug\System.Data.SQLite.
 C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\obj\Debug\HcsShift.Registration.resources
 C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\obj\Debug\HcsShift.Submenu.resources
 C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\obj\Debug\HcsShift.csproj.CopyComplete
+C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\obj\Debug\HcsShift.Search.resources
+C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\obj\Debug\HcsShift.Update.resources
+C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\obj\Debug\HcsShift.Delete.resources

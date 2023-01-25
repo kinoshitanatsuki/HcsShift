@@ -47,7 +47,7 @@ namespace HcsShift
             // HcsShiftRegistrationView
             // 
             this.HcsShiftRegistrationView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.HcsShiftRegistrationView.Location = new System.Drawing.Point(12, 136);
+            this.HcsShiftRegistrationView.Location = new System.Drawing.Point(13, 136);
             this.HcsShiftRegistrationView.Name = "HcsShiftRegistrationView";
             this.HcsShiftRegistrationView.RowHeadersWidth = 51;
             this.HcsShiftRegistrationView.RowTemplate.Height = 24;
@@ -57,9 +57,9 @@ namespace HcsShift
             // RegistrationButton
             // 
             this.RegistrationButton.Font = new System.Drawing.Font("MS UI Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.RegistrationButton.Location = new System.Drawing.Point(485, 401);
+            this.RegistrationButton.Location = new System.Drawing.Point(485, 387);
             this.RegistrationButton.Name = "RegistrationButton";
-            this.RegistrationButton.Size = new System.Drawing.Size(126, 37);
+            this.RegistrationButton.Size = new System.Drawing.Size(141, 51);
             this.RegistrationButton.TabIndex = 1;
             this.RegistrationButton.Text = "登録";
             this.RegistrationButton.UseVisualStyleBackColor = true;
@@ -146,9 +146,9 @@ namespace HcsShift
             // ReturnButton
             // 
             this.ReturnButton.Font = new System.Drawing.Font("MS UI Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.ReturnButton.Location = new System.Drawing.Point(672, 401);
+            this.ReturnButton.Location = new System.Drawing.Point(647, 387);
             this.ReturnButton.Name = "ReturnButton";
-            this.ReturnButton.Size = new System.Drawing.Size(116, 37);
+            this.ReturnButton.Size = new System.Drawing.Size(141, 51);
             this.ReturnButton.TabIndex = 11;
             this.ReturnButton.Text = "戻る";
             this.ReturnButton.UseVisualStyleBackColor = true;

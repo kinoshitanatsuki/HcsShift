@@ -98,7 +98,7 @@ namespace HcsShift
         private void DeletClick(object sender, EventArgs e)
         {
             //削除メニューを表示
-            Delet DeletionFrom = new Delet();
+            Delete DeletionFrom = new Delete();
             DeletionFrom.Visible = true;
             Visible = false;
         }
