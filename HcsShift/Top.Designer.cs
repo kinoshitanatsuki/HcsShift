@@ -43,7 +43,7 @@ namespace HcsShift
             this.RegistrationManagement.TabIndex = 0;
             this.RegistrationManagement.Text = "登録管理";
             this.RegistrationManagement.UseVisualStyleBackColor = true;
-            this.RegistrationManagement.Click += new System.EventHandler(this.RegistrationManagement_Click);
+            this.RegistrationManagement.Click += new System.EventHandler(this.RegistrationManagementClick);
             // 
             // End
             // 
@@ -54,7 +54,7 @@ namespace HcsShift
             this.End.TabIndex = 1;
             this.End.Text = "終了";
             this.End.UseVisualStyleBackColor = true;
-            this.End.Click += new System.EventHandler(this.End_Click);
+            this.End.Click += new System.EventHandler(this.EndClick);
             // 
             // Shift
             // 
