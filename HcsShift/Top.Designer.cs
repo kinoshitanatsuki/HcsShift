@@ -60,7 +60,7 @@ namespace HcsShift
             // 
             this.Shift.AutoSize = true;
             this.Shift.Font = new System.Drawing.Font("MS UI Gothic", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Shift.Location = new System.Drawing.Point(240, 76);
+            this.Shift.Location = new System.Drawing.Point(228, 53);
             this.Shift.Name = "Shift";
             this.Shift.Size = new System.Drawing.Size(232, 50);
             this.Shift.TabIndex = 2;

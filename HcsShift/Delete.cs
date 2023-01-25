@@ -63,7 +63,7 @@ namespace HcsShift
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void HcsShiftDeleteViewCellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void DeleteLoad(object sender, EventArgs e)
         {
             using (SQLiteConnection con = new SQLiteConnection("Data Source=test.db"))
             {

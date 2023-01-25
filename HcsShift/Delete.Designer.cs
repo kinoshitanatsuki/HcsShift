@@ -47,7 +47,6 @@ namespace HcsShift
             this.HcsShiftDeleteView.RowTemplate.Height = 24;
             this.HcsShiftDeleteView.Size = new System.Drawing.Size(619, 174);
             this.HcsShiftDeleteView.TabIndex = 0;
-            this.HcsShiftDeleteView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.HcsShiftDeleteViewCellContentClick);
             // 
             // DeleteButton
             // 
@@ -112,6 +111,7 @@ namespace HcsShift
             this.Controls.Add(this.HcsShiftDeleteView);
             this.Name = "Delete";
             this.Text = "Delete";
+            this.Load += new System.EventHandler(this.DeleteLoad);
             ((System.ComponentModel.ISupportInitialize)(this.HcsShiftDeleteView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

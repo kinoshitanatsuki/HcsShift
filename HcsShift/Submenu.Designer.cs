@@ -64,7 +64,7 @@ namespace HcsShift
             // 
             this.DeleteTable.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.DeleteTable.Font = new System.Drawing.Font("MS UI Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.DeleteTable.Location = new System.Drawing.Point(307, 112);
+            this.DeleteTable.Location = new System.Drawing.Point(276, 112);
             this.DeleteTable.Name = "DeleteTable";
             this.DeleteTable.Size = new System.Drawing.Size(184, 58);
             this.DeleteTable.TabIndex = 2;
@@ -97,7 +97,7 @@ namespace HcsShift
             // Search
             // 
             this.Search.Font = new System.Drawing.Font("MS UI Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Search.Location = new System.Drawing.Point(307, 211);
+            this.Search.Location = new System.Drawing.Point(276, 211);
             this.Search.Name = "Search";
             this.Search.Size = new System.Drawing.Size(184, 58);
             this.Search.TabIndex = 5;
@@ -108,7 +108,7 @@ namespace HcsShift
             // Delet
             // 
             this.Delet.Font = new System.Drawing.Font("MS UI Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Delet.Location = new System.Drawing.Point(307, 313);
+            this.Delet.Location = new System.Drawing.Point(276, 313);
             this.Delet.Name = "Delet";
             this.Delet.Size = new System.Drawing.Size(184, 58);
             this.Delet.TabIndex = 6;
@@ -119,7 +119,7 @@ namespace HcsShift
             // Top
             // 
             this.Top.Font = new System.Drawing.Font("MS UI Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Top.Location = new System.Drawing.Point(589, 313);
+            this.Top.Location = new System.Drawing.Point(514, 313);
             this.Top.Name = "Top";
             this.Top.Size = new System.Drawing.Size(184, 58);
             this.Top.TabIndex = 7;
@@ -132,7 +132,7 @@ namespace HcsShift
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(711, 387);
             this.Controls.Add(this.Top);
             this.Controls.Add(this.Delet);
             this.Controls.Add(this.Search);
