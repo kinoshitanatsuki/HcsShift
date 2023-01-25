@@ -17,7 +17,7 @@ namespace HcsShift
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void RegistrationManagement_Click(object sender, EventArgs e)
+        private void RegistrationManagementClick(object sender, EventArgs e)
         {
             //サブメニューを表示
             Submenu SubmenuFrom = new Submenu();
@@ -29,7 +29,7 @@ namespace HcsShift
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void End_Click(object sender, EventArgs e)
+        private void EndClick(object sender, EventArgs e)
         {
             if (MessageBox.Show("終了してもいいですか？", "確認", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {

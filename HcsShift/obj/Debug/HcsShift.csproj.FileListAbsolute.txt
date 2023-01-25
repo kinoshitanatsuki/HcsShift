@@ -8,3 +8,14 @@ C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\obj\Debug\HcsShift.csproj.Gen
 C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\obj\Debug\HcsShift.csproj.CoreCompileInputs.cache
 C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\obj\Debug\HcsShift.exe
 C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\obj\Debug\HcsShift.pdb
+C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\bin\Debug\EntityFramework.dll
+C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\bin\Debug\System.Data.SQLite.dll
+C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\bin\Debug\EntityFramework.xml
+C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\bin\Debug\System.Data.SQLite.xml
+C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\obj\Debug\HcsShift.Registration.resources
+C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\obj\Debug\HcsShift.Submenu.resources
+C:\Users\s20217070.STD\Documents\HcsShift\HcsShift\obj\Debug\HcsShift.csproj.CopyComplete
